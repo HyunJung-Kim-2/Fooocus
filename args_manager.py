@@ -23,7 +23,7 @@ args_parser.parser.add_argument("--disable-analytics", action='store_true',
 args_parser.parser.set_defaults(
     disable_cuda_malloc=True,
     in_browser=True,
-    port=None
+    port=10003
 )
 
 args_parser.args = args_parser.parser.parse_args()
